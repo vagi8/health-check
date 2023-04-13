@@ -9,29 +9,29 @@ Organizer - [Fetch Rewards](https://fetch.com/)
 # Installation
 1. [Install python](https://www.python.org/downloads/). 
     Install for required operating sysmtem if not already installed. Verified versions for python are [3.10, 3.9, 3.8].
-2. Create virtual environment using venv.
-    - create a new virtual environment named `myenv`
-    ```
-    python -m venv path/to/myenv
-    ```
-    - To activate the virtual environment run the following command. make sure to use the use it from the appropriate path. (HINT- the goal is to run a `activate` script inside the newly created myenv/Scripts directory) 
-    ### Windows
-    ```
-    path/to/myenv/Scripts/activate
-    ```
-    ### Linux / Mac
-    ```
-    source path/to/myenv/bin/activate
-    ```
-3. Clone the repository. ([Git Installation Instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
+2. Clone the repository. ([Git Installation Instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
 ```
 git clone https://github.com/vagi8/health-check.git
 ```
 3. Go into project directory.
 ```
-cd Fetch-Take-Home-Exercise-SRE
+cd health-check
 ```
-3. Install dependencies. If you are using virtual environment, make sure you activate it before installing the dependencies. `pip` command is usually installed with python. If not installed please install it.
+4. Create virtual environment using venv.
+    - create a new virtual environment named `myenv`
+    ```
+    python -m venv myenv
+    ```
+    - To activate the virtual environment run the following command. make sure to use the use it from the appropriate path. (HINT- the goal is to run a `activate` script inside the newly created myenv/Scripts directory) 
+    ### Windows
+    ```
+    ./myenv/Scripts/activate
+    ```
+    ### Linux / Mac
+    ```
+    source ./myenv/bin/activate
+    ```
+5. Install dependencies. If you are using virtual environment, make sure you activate it before installing the dependencies. `pip` command is usually installed with python. If not installed please install it.
 ```
 pip install -r requirements.txt
 ```
