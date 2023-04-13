@@ -32,12 +32,22 @@ cd health-check
     source ./myenv/bin/activate
     ```
 5. Install dependencies. If you are using virtual environment, make sure you activate it before installing the dependencies. `pip` command is usually installed with python. If not installed please install it.
+### Windows
 ```
 pip install -r requirements.txt
+```
+### Linux / Mac
+```
+pip3 install -r requirements.txt
 ```
 
 # Execution
 Run the program. Again, this is to be run after activating virtual environment if you are using one. 
+### Windows
 ```
 python main.py
+```
+### Linux / Mac
+```
+python3 main.py
 ```
