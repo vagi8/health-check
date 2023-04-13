@@ -1,9 +1,9 @@
 # Fetch-Take-Home-Exercise-SRE
-Author  -  Vageeshan Mankala
-[LinkedIn](https://www.linkedin.com/in/vageeshan-mankala-4b8128126/)
+Author  -  Vageeshan Mankala ([LinkedIn](https://www.linkedin.com/in/vageeshan-mankala-4b8128126/))
 
 # Monitor HTTP/S Endpoints
 Problem Statement - [fetch-take-home-execercise-SRE](https://fetch-hiring.s3.us-east-1.amazonaws.com/site-reliability-engineer/health-check.pdf)
+
 Organizer - [Fetch Rewards](https://fetch.com/)
 
 # Installation
@@ -25,7 +25,7 @@ Organizer - [Fetch Rewards](https://fetch.com/)
     ```
 3. Clone the repository. ([Git Installation Instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git))
 ```
-git clone https://github.com/vagi8/Fetch-Take-Home-Exercise-SRE.git
+git clone https://github.com/vagi8/health-check.git
 ```
 3. Go into project directory.
 ```
