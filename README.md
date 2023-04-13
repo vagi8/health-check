@@ -25,7 +25,7 @@ cd health-check
     - To activate the virtual environment run the following command. make sure to use the use it from the appropriate path. (HINT- the goal is to run a `activate` script inside the newly created myenv/Scripts directory) 
     ### Windows
     ```
-    ./myenv/Scripts/activate
+    .\myenv\Scripts\activate
     ```
     ### Linux / Mac
     ```
